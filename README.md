@@ -49,17 +49,15 @@ This is the third task submission for the ApexPlanet Internship. The goal of thi
 
 ## 📸 Screenshots
 
-![Desktop View](<ss2(1).png>)
+![screenshot](TASK-3/ss1.png)
 
-![Joke API Integration](<ss2(2).png>)
-
----
+![screenshot](TASK-3/ss2.png)
 
 ## ✅ Internship Credit
 
 **Project:** Task 3 – Advanced Styling and JavaScript
 
 **Year:** 2025  
-**Intern:** [MANASA GEMBALI]
+**Intern:** MANASA GEMBALI
 
 ---
