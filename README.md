@@ -19,7 +19,6 @@ This is the third task submission for the ApexPlanet Internship. The goal of thi
 
 ### ✅ 3. Joke API Integration
 
-- Fetched **real-time data** from the [Official Joke API](https://official-joke-api.appspot.com/random_joke).
 - Displayed jokes dynamically on the webpage using **JavaScript's `fetch()`**.
 - Included a **“Get Another Joke”** button for live updates.
 
