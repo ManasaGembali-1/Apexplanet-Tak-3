@@ -52,11 +52,4 @@ This is the third task submission for the ApexPlanet Internship. The goal of thi
 
 ![screenshot](TASK-3/ss2.png)
 
-## ✅ Internship Credit
-
-**Project:** Task 3 – Advanced Styling and JavaScript
-
-**Year:** 2025  
-**Intern:** MANASA GEMBALI
-
 ---
