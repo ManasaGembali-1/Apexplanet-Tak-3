@@ -1,0 +1,121 @@
+.carousel-section {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+}
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: opacity 0.5s ease;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+
+.carousel button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.joke-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.joke-section button {
+  background-color: #ffb703;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.joke-section button:hover {
+  background-color: #fb8500;
+}
+
+@media (max-width: 992px) {
+  header h1 {
+    font-size: 2.4rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .carousel img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .form-section,
+  .gallery-section,
+  .carousel-section,
+  .joke-section {
+    padding: 20px 10px;
+  }
+
+  .carousel img {
+    height: 200px;
+  }
+
+  .carousel button {
+    font-size: 1.5rem;
+    padding: 6px;
+  }
+
+  .joke-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .joke-section button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
